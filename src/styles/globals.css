@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "tailwindcss";
 
@@ -7,8 +7,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: "Pixelify Sans", sans;
-  --font-mono: "Roboto Mono", monospace;
+  --font-sans: "Jersey 10", sans;
+  --font-roboto-sans: "Roboto", sans;
+  --font-roboto-mono: "Roboto Mono", monospace;
 }
 
 :root {
@@ -129,3 +130,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .var {
+    --width: 100vw;
+  }
+
+  body {
+    background-image:
+      linear-gradient(to right, rgba(100, 255, 0, 0.050) 2px, transparent 1px),
+      linear-gradient(to bottom, rgba(100, 255, 0, 0.050) 2px, transparent 1px);
+    background-size: calc(100vw / 20) calc(100vw / 20);
+
+    transition: 
+      background-color 0.3s ease-in-out, 
+      color 0.3s ease-in-out;
+  }
+  
+  .dark body {
+    background-image:
+      linear-gradient(to right, rgba(100, 255, 0, 0.008) 2px, transparent 1px),
+      linear-gradient(to bottom, rgba(100, 255, 0, 0.008) 2px, transparent 1px);
+    background-size: calc(100vw / 20) calc(100vw / 20);
+  }
+}
+
