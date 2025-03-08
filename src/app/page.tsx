@@ -20,16 +20,16 @@ export default function Home() {
         <ThemeToggle />
       </header>
 
-      <main className="mx-auto w-full max-w-4xl">
+      <main className="mx-auto w-full max-w-4xl space-y-4 px-2">
         {/* Hero Section */}
         <section
-          className="flex min-h-[400px] items-center justify-center px-4 py-8"
+          className="flex min-h-[400px] items-center justify-center px-4 py-8 rounded-xl"
           aria-labelledby="hero-heading"
         >
           <div className="flex flex-col items-center text-center space-y-6">
             <Image
               src="./logo.svg"
-              className="h-36 w-36"
+              className="h-42 w-42 hover:animate-spin"
               width={144}
               height={144}
               alt="Logo do Servidor da Lagoa Azul"
@@ -41,7 +41,7 @@ export default function Home() {
             >
               Servidor da Lagoa Azul!
             </h1>
-            <p className="text-lg font-light max-w-xl">
+            <p className="max-w-xl">
               Servidor de Minecraft com alguns mods que adicionam magias,
               máquinas, animais e muito mais.
             </p>
@@ -49,7 +49,10 @@ export default function Home() {
         </section>
 
         {/* Mods Section */}
-        <section className="px-4 md:px-8 py-8" aria-labelledby="mods-heading">
+        <section
+          className="px-4 md:px-8 py-8 rounded-xl bg-gradient-to-r from-teal-200/20 to-cyan-600/20 border-2 border-primary"
+          aria-labelledby="mods-heading"
+        >
           <div className="flex flex-col space-y-6 w-full">
             <h2
               id="mods-heading"
@@ -98,7 +101,10 @@ export default function Home() {
         </section>
 
         {/* Informações Gerais Section */}
-        <section className="px-4 md:px-8 py-8" aria-labelledby="info-heading">
+        <section
+          className="px-4 md:px-8 py-8 rounded-xl bg-gradient-to-r from-teal-200/20 to-cyan-600/20 border-2 border-primary"
+          aria-labelledby="info-heading"
+        >
           <div className="flex flex-col space-y-6">
             <h2
               id="info-heading"
@@ -122,7 +128,7 @@ export default function Home() {
 
         {/* Orientações Section */}
         <section
-          className="px-4 md:px-8 py-8"
+          className="px-4 md:px-8 py-8 rounded-xl bg-gradient-to-r from-teal-200/20 to-cyan-600/20 border-2 border-primary"
           aria-labelledby="orientacoes-heading"
         >
           <div className="flex flex-col space-y-6">
@@ -243,7 +249,7 @@ export default function Home() {
                       href="https://www.techtudo.com.br/guia/2024/08/minecraft-tlauncher-tem-virus-veja-riscos-de-jogar-colocar-skins-e-mais-edjogos.ghtml"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-green-700 hover:underline dark:text-green-400 focus:outline-none focus:ring-2 focus:ring-green-500 rounded"
+                      className="font-bold text-green-700 hover:underline dark:text-green-400 focus:outline-none focus:ring-2 focus:ring-green-500 rounded"
                       aria-label="Link para matéria do TechTudo sobre o TLauncher ter vírus ou não"
                     >
                       spyware
@@ -518,7 +524,7 @@ export default function Home() {
 
         {/* Shaders Section */}
         <section
-          className="px-4 md:px-8 py-8"
+          className="px-4 md:px-8 py-8 rounded-xl bg-gradient-to-r from-teal-200/20 to-cyan-600/20 border-2 border-primary"
           aria-labelledby="shaders-heading"
         >
           <div className="flex flex-col space-y-6">
@@ -555,7 +561,7 @@ export default function Home() {
 
         {/* Atualizações Section */}
         <section
-          className="px-4 md:px-8 py-8"
+          className="px-4 md:px-8 py-8 rounded-xl bg-gradient-to-r from-teal-200/20 to-cyan-600/20 border-2 border-primary"
           aria-labelledby="atualizacoes-heading"
         >
           <div className="flex flex-col space-y-6">
@@ -572,7 +578,7 @@ export default function Home() {
                   <time dateTime="2025-03-02" className="font-bold">
                     02/03/2025
                   </time>
-                  <span className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs px-2 py-1 rounded-full">
+                  <span className="bg-green-300 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs px-2 py-1 rounded-full">
                     Novo
                   </span>
                 </header>
