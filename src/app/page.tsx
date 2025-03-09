@@ -259,10 +259,7 @@ export default function Home() {
                 </p>
               </div>
               <Accordion type="multiple" className="w-full">
-                <AccordionItem
-                  value="item-sklaucher"
-                  className="bg-secondary/50"
-                >
+                <AccordionItem value="item-sklaucher">
                   <AccordionTrigger className="cursor-pointer">
                     <div className="flex flex-row items-center space-x-4">
                       <Image
@@ -277,7 +274,7 @@ export default function Home() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide px-4">
+                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide">
                       <p>
                         Launcher bem mais recente e sem necessidade de instalar.
                       </p>
@@ -378,10 +375,7 @@ export default function Home() {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem
-                  value="item-original"
-                  className="bg-secondary/50"
-                >
+                <AccordionItem value="item-original">
                   <AccordionTrigger className="cursor-pointer">
                     <div className="flex flex-row items-center space-x-4">
                       <Image
@@ -397,7 +391,7 @@ export default function Home() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide px-4">
+                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide">
                       <p>
                         Para utilizar o Minecraft Original é necessário instalar
                         o Forge <strong>43.3.33</strong> da versão{" "}

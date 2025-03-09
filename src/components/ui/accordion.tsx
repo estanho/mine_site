@@ -25,7 +25,10 @@ function AccordionItem({
   return (
     <AccordionPrimitive.Item
       data-slot="accordion-item"
-      className={cn("border px-2 border-primary rounded-lg", className)}
+      className={cn(
+        "border px-2 border-primary rounded-lg bg-secondary/50",
+        className,
+      )}
       {...props}
     />
   );
@@ -61,7 +64,7 @@ function AccordionContent({
   return (
     <AccordionPrimitive.Content
       data-slot="accordion-content"
-      className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm"
+      className="data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down overflow-hidden text-sm px-4"
       {...props}
     >
       <div className={cn("pt-0 pb-4", className)}>{children}</div>
