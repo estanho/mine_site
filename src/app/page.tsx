@@ -15,12 +15,12 @@ export default function Home() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="font-roboto-sans flex min-h-screen flex-col">
+    <div className="font-roboto-sans flex min-h-screen flex-col bg-gradient-to-r from-teal-200/10 to-cyan-600/20">
       <header className="top-0 z-10 flex justify-end p-4">
         <ThemeToggle />
       </header>
 
-      <main className="mx-auto w-full max-w-4xl space-y-4 px-2">
+      <main className="mx-auto w-full max-w-4xl space-y-4 px-2 font-medium">
         {/* Hero Section */}
         <section
           className="flex min-h-[400px] items-center justify-center px-4 py-8 rounded-xl"
@@ -259,7 +259,10 @@ export default function Home() {
                 </p>
               </div>
               <Accordion type="multiple" className="w-full">
-                <AccordionItem value="item-sklaucher">
+                <AccordionItem
+                  value="item-sklaucher"
+                  className="bg-secondary/50"
+                >
                   <AccordionTrigger className="cursor-pointer">
                     <div className="flex flex-row items-center space-x-4">
                       <Image
@@ -274,7 +277,7 @@ export default function Home() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide">
+                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide px-4">
                       <p>
                         Launcher bem mais recente e sem necessidade de instalar.
                       </p>
@@ -375,7 +378,10 @@ export default function Home() {
                     </div>
                   </AccordionContent>
                 </AccordionItem>
-                <AccordionItem value="item-original">
+                <AccordionItem
+                  value="item-original"
+                  className="bg-secondary/50"
+                >
                   <AccordionTrigger className="cursor-pointer">
                     <div className="flex flex-row items-center space-x-4">
                       <Image
@@ -391,10 +397,11 @@ export default function Home() {
                     </div>
                   </AccordionTrigger>
                   <AccordionContent>
-                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide">
+                    <div className="flex flex-col space-y-4 font-roboto-mono tracking-wide px-4">
                       <p>
                         Para utilizar o Minecraft Original é necessário instalar
-                        o Forge.
+                        o Forge <strong>43.3.33</strong> da versão{" "}
+                        <strong>1.20.1</strong>.
                       </p>
 
                       <div className="flex">
@@ -425,8 +432,9 @@ export default function Home() {
                         />
                         <figcaption className="font-roboto-mono text-sm text-center">
                           <em>
-                            Selecione a opção de <strong>Installer</strong> no
-                            Download Recommended.
+                            Selecione a opção de{" "}
+                            <strong>+ Show all Versions</strong> e baixe o{" "}
+                            <strong>Installer</strong> na versão 47.3.33.
                           </em>
                         </figcaption>
                       </figure>
