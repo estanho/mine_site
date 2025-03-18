@@ -13,7 +13,7 @@ export default function InfoSection() {
           </ul>
           <p>
             Você pode ajudar a manter o servidor vivo, basta conversar com os
-            administradores.
+            administradores 🐍.
           </p>
         </div>
       </section>
