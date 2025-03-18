@@ -1,6 +1,6 @@
-import type { Metadata } from "next";
-import { ThemeProvider } from "@/components/provider/theme-provider";
 import "@/styles/globals.css";
+import type { Metadata } from "next";
+import { ThemeProvider } from "../components/provider/theme-provider";
 
 export const metadata: Metadata = {
   title: "Servidor da Lagoa Azul",
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" suppressHydrationWarning>
       <body>
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="dark">
           {children}
         </ThemeProvider>
       </body>
