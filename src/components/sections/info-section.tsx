@@ -7,7 +7,7 @@ export default function InfoSection() {
 
           <ul className="list-disc list-inside space-y-2">
             <li>Minecraft com Forge 1.20.1 (última atualização: 47.3.33).</li>
-            <li>Total de 49 mods</li>
+            <li>Total de 71 mods</li>
             <li>Servidor dedicado (24/7).</li>
             <li>Backup realizado todos os dias durante a madrugada.</li>
           </ul>
