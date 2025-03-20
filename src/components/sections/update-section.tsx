@@ -120,6 +120,9 @@ export default function UpdateSection() {
                 <li>
                   <strong>+ Mod FallingTrees</strong> (árvores caem mais fácil)
                 </li>
+                <li>
+                  + <strong className="text-primary/5">Herobrine</strong>
+                </li>
               </ul>
             </article>
 
