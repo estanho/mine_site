@@ -20,6 +20,7 @@ import WhitelistArticle from "@/components/sections/articles/whitelist-article";
 import ShadersSection from "@/components/sections/shaders-section";
 import UpdateSection from "@/components/sections/update-section";
 import Frog from "@/components/frog";
+import RulesSection from "@/components/sections/rules-section";
 
 export default function Home() {
   const currentYear = new Date().getFullYear();
@@ -90,6 +91,9 @@ export default function Home() {
 
         {/* Informações Gerais Section */}
         <InfoSection />
+
+        {/* Regras */}
+        <RulesSection />
 
         {/* Orientações Section */}
         <section className="section" aria-labelledby="orientacoes-heading">
