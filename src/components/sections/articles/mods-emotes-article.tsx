@@ -35,6 +35,10 @@ export default function ModsEmotesArticle() {
             <strong>.minecraft</strong> substituindo as pastas antigas se
             existirem.
           </p>
+          <p className="text-green-800 dark:text-green-400 font-medium">
+            Acesse a .minecraft pesquisando por %appdata% no explorador de
+            arquivos do windows.
+          </p>
           <p>
             <strong>Importante não manter nada dos mods antigos</strong>{" "}
             <em>
@@ -42,6 +46,7 @@ export default function ModsEmotesArticle() {
               algo assim).
             </em>
           </p>
+
           <figure className="flex flex-col items-center space-y-2">
             <Image
               src="/guidelines/1_mods_emotes.png"
@@ -55,8 +60,8 @@ export default function ModsEmotesArticle() {
             />
             <figcaption className="font-roboto-mono text-sm text-center">
               <em>
-                Acesse a <strong>.minecraft</strong> pesquisando por{" "}
-                <strong>%appdata%</strong> no explorador de arquivos do windows.
+                As pastas &quot;mods&quot; e &quot;emotes&quot; devem ficar
+                dentro da .minecraft, como na imagem acima.
               </em>
             </figcaption>
           </figure>
