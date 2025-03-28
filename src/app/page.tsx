@@ -389,9 +389,9 @@ export default function Home() {
                       <p className="text-justify">
                         O <strong>SKLauncher</strong> já possui uma opção de
                         reconhecer e definir o limite de memória para uma
-                        quantidade maior. Para acessar a opção de configurar
-                        memória você deve clicar nos três pontos e na opção de{" "}
-                        <strong>Editar</strong> na versão do Forge instalado.
+                        quantidade maior. Para acessar a opção de configuração
+                        de memória você deve clicar nos três pontos e na opção
+                        de <strong>Editar</strong> na versão do Forge instalado.
                       </p>
                       <figure className="flex flex-col items-center space-y-2">
                         <Image
