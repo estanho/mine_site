@@ -105,7 +105,7 @@ export default function Home() {
             {/* Java */}
             <JavaArticle />
 
-            {/* Lauchers */}
+            {/* Launchers */}
             <article className="space-y-4" aria-labelledby="launchers-heading">
               <h3
                 id="launchers-heading"
@@ -135,11 +135,11 @@ export default function Home() {
                 </p>
               </div>
               <Accordion type="multiple" className="w-full">
-                <AccordionItem value="item-sklaucher" className="px-4">
+                <AccordionItem value="item-sklauncher" className="px-4">
                   <AccordionTrigger className="cursor-pointer">
                     <div className="flex flex-row items-center space-x-4">
                       <Image
-                        src="/logos-laucher/sklaucher-logo.webp"
+                        src="/logos-launcher/sklauncher-logo.webp"
                         width={38}
                         height={38}
                         alt="Logo do SKLauncher"
@@ -173,14 +173,14 @@ export default function Home() {
 
                       <figure className="flex flex-col items-center space-y-2">
                         <Image
-                          src="/guidelines/2_sklaucher.png"
+                          src="/guidelines/2_sklauncher.png"
                           className="max-w-full w-full rounded-md border-3 border-primary/40"
                           alt="Captura de tela mostrando onde baixar o SKLauncher no site"
                           width={1000}
                           height={600}
                           sizes="(max-width: 768px) 100vw, 1000px"
                           placeholder="blur"
-                          blurDataURL="/guidelines/2_sklaucher.png"
+                          blurDataURL="/guidelines/2_sklauncher.png"
                         />
                         <figcaption className="font-roboto-mono text-sm text-center">
                           <em>
@@ -207,14 +207,14 @@ export default function Home() {
 
                       <figure className="flex flex-col items-center space-y-2">
                         <Image
-                          src="/guidelines/3_sklaucher.png"
+                          src="/guidelines/3_sklauncher.png"
                           className="max-w-full rounded-md border-3 border-primary/40"
                           alt="Captura de tela mostrando a opção de gerenciar instalações do SKLauncher"
                           width={500}
                           height={300}
                           sizes="(max-width: 768px) 100vw, 1000px"
                           placeholder="blur"
-                          blurDataURL="/guidelines/3_sklaucher.png"
+                          blurDataURL="/guidelines/3_sklauncher.png"
                         />
                         <figcaption className="font-roboto-mono text-sm text-center">
                           <em>
@@ -227,14 +227,14 @@ export default function Home() {
                       </figure>
                       <figure className="flex flex-col items-center space-y-2">
                         <Image
-                          src="/guidelines/4_sklaucher.png"
+                          src="/guidelines/4_sklauncher.png"
                           className="max-w-full rounded-md border-3 border-primary/40"
                           alt="Captura de tela mostrando a configuração de nova instalação no SKLauncher"
                           width={500}
                           height={300}
                           sizes="(max-width: 768px) 100vw, 1000px"
                           placeholder="blur"
-                          blurDataURL="/guidelines/4_sklaucher.png"
+                          blurDataURL="/guidelines/4_sklauncher.png"
                         />
                         <figcaption className="font-roboto-mono text-sm text-center">
                           <em>
@@ -256,7 +256,7 @@ export default function Home() {
                   <AccordionTrigger className="cursor-pointer">
                     <div className="flex flex-row items-center space-x-4">
                       <Image
-                        src="/logos-laucher/original-logo.webp"
+                        src="/logos-launcher/original-logo.webp"
                         width={38}
                         height={38}
                         alt="Logo do Minecraft Original"
@@ -352,6 +352,184 @@ export default function Home() {
 
             {/* Senha no Minecraft (Mod Simple Login) */}
             <PasswordArticle />
+
+            {/* Performance */}
+            <article
+              className="space-y-4"
+              aria-labelledby="performance-heading"
+            >
+              <h3
+                id="whitelist-heading"
+                className="font-bold text-lg font-roboto-mono"
+              >
+                Problemas com Performance (Baixo FPS)
+              </h3>
+              <p className="text-justify">
+                Alguns jogadores podem ter problemas com a performance no seu
+                minecraft e isso pode estar ocorrendo devido ao limite de
+                memória definido pelo launcher do Minecraft.
+              </p>
+              <Accordion type="multiple" className="w-full">
+                <AccordionItem value="item-sklauncher" className="px-4">
+                  <AccordionTrigger className="cursor-pointer">
+                    <div className="flex flex-row items-center space-x-4">
+                      <Image
+                        src="/logos-launcher/sklauncher-logo.webp"
+                        width={38}
+                        height={38}
+                        alt="Logo do SKLauncher"
+                      />
+                      <h3 className="font-roboto-mono tracking-wider text-left">
+                        SKLauncher
+                      </h3>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="flex flex-col space-y-4 font-roboto-sans text-pretty tracking-wide">
+                      <p className="text-justify">
+                        O <strong>SKLauncher</strong> já possui uma opção de
+                        reconhecer e definir o limite de memória para uma
+                        quantidade maior. Para acessar a opção de configurar
+                        memória você deve clicar nos três pontos e na opção de{" "}
+                        <strong>Editar</strong> na versão do Forge instalado.
+                      </p>
+                      <figure className="flex flex-col items-center space-y-2">
+                        <Image
+                          src="/guidelines/8_performance.png"
+                          className="max-w-full rounded-md border-3 border-primary/40"
+                          alt="Captura de tela mostrando a configuração da senha"
+                          width={400}
+                          height={300}
+                          sizes="(max-width: 768px) 100vw, 1000px"
+                          placeholder="blur"
+                          blurDataURL="/guidelines/7_senha.png"
+                        />
+                        <figcaption className="font-roboto-mono text-sm text-center">
+                          <em>
+                            Clique nos três pontos e em <strong>Editar</strong>.
+                          </em>
+                        </figcaption>
+                      </figure>
+
+                      <p className="text-justify">
+                        A memória é definida automaticamente para 4GB que é o
+                        suficiente para jogar o minecraft com a quantidade de
+                        mods instalados.
+                      </p>
+                      <figure className="flex flex-col items-center space-y-2">
+                        <Image
+                          src="/guidelines/9_performance.png"
+                          className="max-w-full rounded-md border-3 border-primary/40"
+                          alt="Captura de tela mostrando a configuração da senha"
+                          width={400}
+                          height={300}
+                          sizes="(max-width: 768px) 100vw, 1000px"
+                          placeholder="blur"
+                          blurDataURL="/guidelines/7_senha.png"
+                        />
+                        <figcaption className="font-roboto-mono text-sm text-center">
+                          <em>
+                            Clique em <strong>Mais Opções</strong> e verifique a
+                            quantidade de Memória Máxima.
+                          </em>
+                        </figcaption>
+                      </figure>
+
+                      <p>
+                        Depois de realizar essas configurações o jogo deve
+                        apresentar um aumento do FPS.
+                      </p>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+                <AccordionItem value="item-original" className="px-4">
+                  <AccordionTrigger className="cursor-pointer">
+                    <div className="flex flex-row items-center space-x-4">
+                      <Image
+                        src="/logos-launcher/original-logo.webp"
+                        width={38}
+                        height={38}
+                        alt="Logo do Minecraft Original"
+                        className="rounded-xl p-[2px]"
+                      />
+                      <h3 className="font-roboto-mono tracking-wider text-left">
+                        Minecraft Original
+                      </h3>
+                    </div>
+                  </AccordionTrigger>
+                  <AccordionContent>
+                    <div className="flex flex-col space-y-4 font-roboto-sans text-pretty tracking-wide">
+                      <p className="text-justify">
+                        O <strong>Launcher Original</strong> pode definir a
+                        memória maxima para 2G que não é o suficiente para jogos
+                        como o Minecraft com a quantidade de mods instalados.
+                      </p>
+                      <p className="text-justify">
+                        Para acessar a opção de configurar memória você deve
+                        selecionar o menu de <strong>Instalações</strong>,
+                        selecione o perfil do Forge instalado e clique nos três
+                        pontos e na opção de <strong>Editar</strong>.
+                      </p>
+                      <figure className="flex flex-col items-center space-y-2">
+                        <Image
+                          src="/guidelines/10_performance.png"
+                          className="max-w-full rounded-md border-3 border-primary/40"
+                          alt="Captura de tela mostrando a configuração da senha"
+                          width={600}
+                          height={300}
+                          sizes="(max-width: 768px) 100vw, 1000px"
+                          placeholder="blur"
+                          blurDataURL="/guidelines/7_senha.png"
+                        />
+                        <figcaption className="font-roboto-mono text-sm text-center">
+                          <em>
+                            Selecione no menu de <strong>Instalações</strong> a
+                            opção de <strong>Editar</strong>.
+                          </em>
+                        </figcaption>
+                      </figure>
+
+                      <p className="text-justify">
+                        No menu de edição da instalação do Forge você deve
+                        selecionar a opção para exibir Mais Opções e verificar a
+                        quantidade de memória máxima para o Minecraft. A
+                        quantidade de memória está na linha de{" "}
+                        <strong>&quot;Argumentos da JVM&quot;</strong> e fica no
+                        começo da linha com{" "}
+                        <strong>&quot;-Xmx2G ...&quot;</strong>. Para aumentar
+                        você deve alterar para{" "}
+                        <strong>&quot;-Xmx4G ...&quot;</strong>.
+                      </p>
+                      <figure className="flex flex-col items-center space-y-2">
+                        <Image
+                          src="/guidelines/11_performance.png"
+                          className="max-w-full rounded-md border-3 border-primary/40"
+                          alt="Captura de tela mostrando a configuração da senha"
+                          width={400}
+                          height={300}
+                          sizes="(max-width: 768px) 100vw, 1000px"
+                          placeholder="blur"
+                          blurDataURL="/guidelines/7_senha.png"
+                        />
+                        <figcaption className="font-roboto-mono text-sm text-center">
+                          <em>
+                            Ao clicar em <strong>Mais Opções</strong> verifique
+                            se o começo do &quot;Argumentos da JVM&quot; está
+                            com &quot;-Xmx4G..&quot;.
+                          </em>
+                        </figcaption>
+                      </figure>
+
+                      <p>
+                        Depois de realizar essas configurações o jogo deve
+                        apresentar um aumento do FPS.
+                      </p>
+                    </div>
+                  </AccordionContent>
+                </AccordionItem>
+              </Accordion>
+            </article>
+
             {/* Whitelist */}
             <WhitelistArticle />
           </div>
