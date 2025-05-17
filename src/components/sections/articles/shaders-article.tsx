@@ -1,10 +1,10 @@
 import { Link2Icon } from "lucide-react";
 import Link from "next/link";
 
-export default function ShadersSection() {
+export default function ShadersArticle() {
   return (
     <>
-      <section className="section" aria-labelledby="shaders-heading">
+      <article className="space-y-4" aria-labelledby="mods-emotes-heading">
         <div className="flex flex-col space-y-6">
           <h2 id="shaders-heading">Shaders</h2>
           <p className="text-justify">Caso queira utilizar um shader bacana.</p>
@@ -28,7 +28,7 @@ export default function ShadersSection() {
             <strong>.minecraft</strong>. Não é necessário extrair nada.
           </p>
         </div>
-      </section>
+      </article>
     </>
   );
 }

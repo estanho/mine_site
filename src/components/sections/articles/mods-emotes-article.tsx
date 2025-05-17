@@ -67,7 +67,7 @@ export default function ModsEmotesArticle() {
           </figure>
           <p>
             Após realizar isso, os mods e emotes estão instalados e só falta
-            configurar o Minecraft.
+            verificar o Java e a configuração do Launcher.
           </p>
         </div>
       </article>

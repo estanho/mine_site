@@ -21,6 +21,9 @@ export default function HeroSection() {
             Servidor de Minecraft com alguns mods que adicionam magias,
             máquinas, animais e muito mais.
           </p>
+          <p className="max-w-xl text-xl underline">
+            Atualmente o servidor está offline.
+          </p>
         </div>
       </section>
     </>
